@@ -5,11 +5,14 @@ The purpose of this project was to create some strong data to give to investors 
 
 ## Results
 First I queried the weather database to pull all the data from the month of June by applying a filter. The filter than produced 1700 results, which I then placed into a dataframe and used the describe() function to obtain the following data:
+
 ![june_temp_summary.png](Images/june_temp_summary.PNG)
+
 As shown in the summary, we can see that the average temperature in Oahu, Hawaii is approximately 75 degrees (Fahrenheit) with a standard deviation of 3.26 degrees. This tells us that 95% of average daily temperatures are between 69 degrees to 81 degrees. 
 
 
 ![dec_temp_summary.png](Images/dec_temp_summary.PNG)
+
 We see that in december, the average temperature drops 4 degrees to 71 degrees and there is a slightly larger standard deviation of 3.75. This tells us that 95% of the average daily temperatures are between 65 degrees and 78 degrees.
 
 ## Summary
